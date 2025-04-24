@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    font-size: 4;
+  background-image: url('images/vecteezy_gucci-logo-brand-background-symbol-design-clothes-fashion_23871178.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 
+.container {
+  display: flex;
+  align-items: stretch; 
+  justify-content: space-between;
+}
+
+
+
+aside {
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+  width: 5%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+
+  article {
+    margin-bottom: 20px;
+  }
+
+      header, nav, main, section, article, aside, footer {
+          padding: 20px;
+          margin: 10px;
+      }
+      header {
+       
+        color: black;
+        padding: 10px;
+       justify-content: center;
+        display: flex;
+        
+      }
+      nav
+        {
+      
+      border-bottom: 2px solid black;
+      color: black;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a
+    {
+      margin-left: 20px;
+      color: black;
+      text-decoration: none;
+    }
+    footer
+    {
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    form {
+        background-color: #440001;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      
+      input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        width: 80%;
+        transition: border-color 0.3s ease;
+      }
+      
+      input:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+      
+      .button-login
+      {
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 200px;
+       
+      }
+      
+      button:hover {
+        background-color: #0056b3;
+      }
+      
+      button:active {
+        background-color: #004085;
+      }
+      
+      input::placeholder {
+        color: #888;
+      }
+      
+     
+      @media (max-width: 600px) {
+        form {
+            padding: 15px;
+        }
+        input {
+            font-size: 14px;
+        }
+        button {
+            font-size: 14px;
+        }
+      }
+      div.con b
+      {
+        color: white;
+      }
+      div.conts a
+      {
+        
+        color: white;  
+        text-decoration: none;
+      }
+     
+    

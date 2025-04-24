@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="main_menu.css">
+
+        <title> macares paresan resto </title>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+              
+              <div class="logo">
+                <img src="images/logo.png" alt="Macares Logo" width="200">
+              </div>
+              <div class="banner">
+                <img src="images/banner.png" alt="Macares Banner" width="450">
+              </div>
+              <div class="login-form">
+                <form>
+                  <input type="text" id="username" name="username" placeholder="Username">
+                  <input type="password" id="password" name="password" placeholder="Password">
+                  <button type="button" id="login" name="login">Log in</button>
+                </form>
+              </div>
+              
+            </div>
+          </header>
+    
+        <nav>
+            <a href="main-menu.html"><b>MAIN MENU</b></a>
+            <a href="register.html"> <b>REGISTER </a>
+            <a href="places.html"> <b>PLACES </a>
+            <a href="main_dishes.html"> <b>MAIN DISHES</a>
+              <a href="About_us.html">ABOUT US</a>
+        </nav>
+        <div align="center">
+          <button id="blue">S</button> <!-- miss d pani mo gana i fix pa nako -->
+          <button id="white">M</button>
+          <button id="navy">C</button>
+            </div>
+            <script>
+        
+                let body = document.querySelector('body');
+                document.querySelector('#blue').addEventListener('click', function aligncenter() {
+                    body.style.backgroundColor = 'blue';
+                });
+                document.querySelector('#white').addEventListener('click', function aligncenter() {
+                    body.style.backgroundColor = 'white';
+                });
+                document.querySelector('#navy').addEventListener('click', function aligncenter() {
+                    body.style.backgroundColor = '#008080';
+                });
+        
+        
+            </script>
+            <div class="conts">
+        <aside>
+            <img src="images/Banner1.png" width="200" height="600">
+        </aside>
+
+                  <main>
+                    <h1><center>Branches place</center></h1>
+                    <div>
+                    <div class="cont">
+                      <img src="images/basak.JPG" width="200">
+                        <a href="places.html"><h4>Basak Branch</h4></a>
+                    </div>
+                    <div class="cont">
+                      <img src="images/subangdako.JPG" width="200">
+                      <a href="places.html"><h4>Subang Daku Branch</h4></a>
+                    </div>
+                    <div class="cont">
+                      <img src="images/consolacion.JPG" width="200">
+                      <a href="places.html"><h4>Consolacion Branch</h4></a>
+                    </div>
+                  </div>
+                  <h1><center>Main Dishes</center></h1>
+                  <div>
+                    <div class="cont">
+                      <img src="images/mixmatch2.jpg" width="200">
+                      <a href="main_dishes.html"><h4>Mix Match 1 Combo</h4></a>
+                    </div>
+                    <div class="cont">
+                      <img src="images/mxmatch1.jpg" width="200">
+                      <a href="main_dishes.html"><h4>Mix Match 2 Combo</h4></a>
+                    </div>
+                    <div class="cont">
+                      <img src="images/Leche flan.jpeg" width="200" height="220">
+                      <a href="main_dishes2.html"><h4>DESSERT</h4></a>
+                    </div>
+                    <div>
+                      <h1><center>How To register?</center></h1>
+
+                     <a href="register.html"> <h2><center>Just Click This Link</center></h2></a>
+                    </div>
+                  </div>
+                 </main>
+                 <aside>
+                    <img src="images/Banner1.png" width="200" height="600">
+                </aside>
+                </div>
+                
+        <footer>
+            <p>&copy; 2024 MACARES PARESAN | All Rights Reserved</p>
+        </footer>
+    </body>
+</html>

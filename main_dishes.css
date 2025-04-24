@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    font-size: 4;
+    background-color: #440001;
+}
+.container {
+  display: flex;
+  align-items: stretch; 
+  justify-content: space-between;
+}
+main {
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url('images/Yellow and Black Lines Restaurant Menu (1).png');
+  width: 800px;
+  height: 1150px;
+
+}
+.conts {
+  display: flex;         
+  align-items: stretch;  
+}
+aside {
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  
+  background-image: url(images/banner2.png);
+}
+
+
+  article {
+    margin-bottom: 20px;
+  }
+
+      header, nav, main, section, article, aside, footer {
+          padding: 20px;
+          margin: 10px;
+      }
+      header {
+        color: black;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+      }
+      nav
+        {
+      
+      border-bottom: 2px solid black;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a
+    {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+    }
+    footer
+    {
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .cont{
+      display: inline-block;
+  }
+  .title
+  {
+    text-align:center;
+    color: white;
+  }
+  .first_img
+  {
+    position: absolute;
+    top: 600px;
+    left: 350px;
+    color: white;
+  }
+  .second_img
+  {
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    color: white;
+    
+  }
+  .third_img
+  {
+    position: absolute;
+    top: 850px;
+    left: 350px;
+    color: white;
+  }
+  .fourth_img
+  {
+    position: absolute;
+    top: 850px;
+    left: 700px;
+    color: white;
+  }
+  .fifth_img
+  {
+    position: absolute;
+    top: 1100px;
+    left: 350px;
+    color: white;
+  }
+  .sixth_img
+  {
+    position: absolute;
+    top: 1100px;
+    left: 700px;
+    color: white;
+  }
+  
+  .space
+  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .move
+  {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+  }
+ .buts
+ {
+  position: absolute;
+  left: 580px;
+  width: 500px;
+  color: aliceblue;
+ }
+ div.buts button {
+  background-color: white; 
+  color: white;             
+  border: none;             
+  padding: 5px 15px;      
+  font-size: 16px;          
+  border-radius: 5px;       
+  cursor: pointer;          
+  transition: background-color 0.3s ease; 
+}
+.appetizer
+{
+  position: relative;
+  
+}
+div.buts a
+{
+  text-decoration: none;
+  color: maroon;
+}
+
+div.buts button:hover {
+  background-color: #e67e22; /* Darker color on hover */
+}
+
+#dessert
+{
+  text-align: center;
+  color: white;
+}
+h1
+{
+  color: white;
+  position: absolute;
+  top: 530px;
+  left: 600px;
+}
+h2
+{
+  color: white;
+}
+.dessert
+{
+  position: absolute;
+  top: 900px;
+  left: 530px;
+}
+
+

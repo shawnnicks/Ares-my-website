@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    font-size: 20px;
+    background-color: #440001;
+    background-image: url('images/vecteezy_gucci-logo-brand-background-symbol-design-clothes-fashion_23871178.jpg');
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+ 
+
+.conts {
+    display: flex;         
+    align-items: stretch;  
+  }
+  
+  main {
+    flex: 1;               
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-right: 20px;    
+    overflow-y: auto;
+    width: 500px;
+    background-color: #440001;
+    height: 1000px;
+  }
+  
+  aside {
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    width: 15%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/Banner1.png');
+    height: auto;
+  }
+  
+
+  article {
+    margin-bottom: 20px;
+  }
+
+      header, nav, main, section, article, aside, footer {
+          padding: 20px;
+          margin: 10px;
+      }
+
+
+      header {
+        color: black;
+        padding: 5px;
+       justify-content: space-between;
+        display: flex;
+      }
+      nav
+        {
+      
+      border-bottom: 2px solid black;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a
+    {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+    }
+    footer
+    {
+      color: white;
+      text-align: center;
+      padding: 10px;
+      background-color: #440001;
+    }
+    .banner {
+        display: inline-block;
+        margin:  auto;
+        text-align: center;
+        width: 400px;   
+    }
+  h3,h1
+  {
+   text-align: center;
+   color: #f9f9f9;
+  }
+ 
+  video
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  

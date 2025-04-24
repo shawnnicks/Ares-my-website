@@ -1,0 +1,59 @@
+body
+{
+    background-color: #440001;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/200w.gif');
+    background-size: cover; /* Optional: Makes the image cover the entire element */
+    background-position: center; /* Optional: Centers the image */
+    background-repeat: no-repeat; /* Optional: Prevents the GIF from repeating */
+}
+label
+{
+    color: white;
+    font-style: italic;
+}
+h1
+{
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    
+}
+select
+{
+    margin-bottom: auto;
+    padding:10px;
+    width: 350px;
+}
+button
+{
+    display: block;
+    padding:10px;
+    width: 350px;
+    background-color: grey;
+}
+button:hover
+{
+    background-color: black;
+    color:grey;
+}
+
+
+.con {
+    margin-top: 50px;  /* Adjust this value depending on where you want the element */
+    display: flex;
+    align-items: center;  /* Centers the content vertically */
+    justify-content: center;  /* Optionally centers horizontally */
+    height: 25%;  /* Ensure the element can take up the full height of the parent */
+}
+.banner
+{
+    width: 600px;
+}
+.logo
+{
+    width: 400px;
+}

@@ -1,0 +1,173 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    font-size: 20px;
+    background-image: url('images/vecteezy_gucci-logo-brand-background-symbol-design-clothes-fashion_23871178.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+
+ 
+
+.conts {
+    display: flex;         
+    align-items: stretch;  
+  }
+  
+  main {
+    flex: 1;               
+    background-color: #440001;
+    padding: 20px;
+    margin-right: 20px;    
+    overflow-y: auto;
+    width: 500px;
+  }
+  
+  aside {
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    width: 15%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/Banner1.png');
+    height: auto;
+  }
+  
+
+  article {
+    margin-bottom: 20px;
+  }
+
+      header, nav, main, section, article, aside, footer {
+          padding: 20px;
+          margin: 10px;
+      }
+      .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 83%;
+}
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;  
+        padding: 10px;
+      }
+      nav
+        {
+      
+      border-bottom: 2px solid black;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a
+    {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+    }
+    footer
+    {
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .cont{
+      display: inline-block;
+      justify-content: space-between;
+      margin: 20px;
+  }
+  h4,h1
+  {
+    color: white;
+  }
+  h2
+  {
+    color:#440001 ;
+    background-color: white;
+    
+  }
+  a
+  {
+    text-decoration: none;
+  }
+  .title
+  {
+    text-align:center;
+    color: white;
+  }
+  
+
+  .login-form form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+  }
+  form {
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    
+    text-align: center;
+}
+
+  form input {
+      width: 190px;
+      padding: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #333;
+      color: white;
+  }
+
+  form input::placeholder {
+      color: #aaa; /* Subtle placeholder text */
+  }
+
+  form button {
+      width: 150px;
+      padding: 10px;
+      background-color: #ffcc00;
+      border: none;
+      border-radius: 5px;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+  }
+
+  form button:hover {
+      background-color: #e6b800;  
+      color: #111;  
+  }
+
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #440001;
+    ;
+    font-size: 14px;
+}
+    .banner {
+      display: inline-block;
+      margin:  auto;
+      text-align: center;
+      width: 400px;
+  }

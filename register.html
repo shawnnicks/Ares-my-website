@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="stylesheet" href="register.css">
+
+        <title> macares paresan </title>
+    </head>
+    <body>
+
+        <header>
+            <div>
+            <img src="images/logo.png" alt="logo" width="300">
+        </div>
+        <div>
+             <img src="images/banner.png" alt="banner" width="400">
+            </div>
+            <div>
+             <img src="images/logo.png" alt="logo" width="300">
+            </div>
+            </header>
+
+        <nav>
+            <a href="main-menu.html"> <b>MAIN MENU</b></a>
+            <a href="register.html"> <b>REGISTER </b></a>
+            <a href="places.html"> <b>PLACES</b> </a>
+            <a href="main_dishes.html"> <b>MAIN DISHES</b></a>
+            <a href="About_us.html"><b>ABOUT US</b></a>
+        </nav>
+        <div align="center">
+            <button id="blue">B</button>
+            <button id="white">W</button>
+            <button id="navy">N</button>
+            </div>
+            <script>
+        
+                let body = document.querySelector('body');
+                document.querySelector('#blue').addEventListener('click', function aligncenter() {
+                    body.style.backgroundColor = 'blue';
+                });
+                document.querySelector('#white').addEventListener('click', function aligncenter() {
+                    body.style.backgroundColor = 'white';
+                });
+                document.querySelector('#navy').addEventListener('click', function aligncenter() {
+                    body.style.backgroundColor = '#008080';
+                });
+        
+        
+            </script>
+       <div  align="center">
+
+                  <main>
+                   
+                    <form id="registration-form" action="person_info.html" method="get">
+                        <div>
+                            <input type="text" id="username" name="username" placeholder="Username" required>
+                        </div>
+                        <div>
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                        </div>
+                        <div>
+                            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" Required>
+                        </div>
+                        <div>
+                            <input type="text" id="email" name="email" placeholder="Email"required>
+                        </div>
+                        <div>
+                            <input type="text" id="confirm_email" name="confirm_email" placeholder="Confirm Email" required>
+                        </div>
+                        <div align="center">
+                        <button  class="button-login" type="submit" class="submit-button">Register</button>
+                    </div>
+                    <div class="con">
+                        <b>Already have an account?</b>
+                    </div>
+                    <div class="conts">
+                        
+                    <a href="login.html">Log in</a>
+                </div>
+                    </form>
+                </div>
+                    
+                 </main>
+
+        <footer>
+            <p>&copy; 2024 MACARES PARESAN | All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
